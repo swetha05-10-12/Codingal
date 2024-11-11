@@ -1,0 +1,7 @@
+print("Hello. The weather's nice today")
+print('She said,"hi"')
+print("""My
+      name
+      is
+      Swetha
+""")
