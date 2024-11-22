@@ -1,0 +1,2 @@
+print("Python keywords are...")
+print("['False', 'None', 'True','and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'exept', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is','lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'retuern', 'try', 'while', 'with', ', yield']")
