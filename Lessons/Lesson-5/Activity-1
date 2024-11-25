@@ -1,0 +1,20 @@
+# age = int(input("Enter your age:"))
+# gender = input("Enter your gender:")
+# if age>=65 or age<4:
+#     print("You have a 100 percent discount.")
+# elif gender=="female" :
+#     print("You have a 50 percent discount.")
+# else:
+#     print("You have a 100 percent fare.")
+name=input("Enter your name:")
+age=int(input("Enter your age:"))
+gender=input("Enter your gender:")
+to_pay=2000
+if age>=65 or age<4:
+    to_pay= to_pay-(to_pay/100)*100
+    print( name,",you have to pay",to_pay)
+elif gender=="female" :
+    to_pay=to_pay/2
+    print(name,",you have to pay",to_pay)
+else:
+    print(name,",you have to pay",to_pay)
