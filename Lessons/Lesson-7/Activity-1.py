@@ -1,9 +1,9 @@
 name=input("Enter your name:")
-age=input("Enter your age:")
+age=int(input("Enter your age:"))
 health=input("Describe your health (Good/Bad):")
-weight=input("Enter you weight in kgs:")
-height=input("Enter you height in cm:")
-if health=="Good":
+weight=int(input("Enter you weight in kgs:"))
+height=int(input("Enter you height in cm:"))
+if health=="Good" or health=="good":
     if height>90:
         if weight<120:
             if age>=50 and age<60:
