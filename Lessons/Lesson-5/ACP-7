@@ -1,0 +1,8 @@
+character=input("Enter one character:")
+if character (type)==("string"):    
+    print("You have entered an alphabet")
+else:
+    print("You have not entered an alphabet")
+
+ 
+

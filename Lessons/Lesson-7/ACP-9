@@ -1,0 +1,9 @@
+num1=int(input("Enter you first number to be swapped:"))
+num2=int(input("Enter you second number to be swapped:"))
+num3=int(input("Enter you third number to be swapped:"))
+
+num1=num2
+num2=num3
+num3=num1
+
+print(num1,num2,num3)
