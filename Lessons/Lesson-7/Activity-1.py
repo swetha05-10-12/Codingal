@@ -23,5 +23,5 @@ if health=="Good" or health=="good":
         print("You are not eligible for any rides")   
         
 else:
-    print("You are not eligible fro any rides")
+    print("You are not eligible for any rides")
     
