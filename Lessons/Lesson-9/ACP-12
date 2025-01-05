@@ -1,0 +1,12 @@
+num=int(input("Enter a number to find number of digits:"))
+num2=num
+print("You want to find how many digits are there in the number:", num2)
+num_of_digits = 0
+while num2 != 0:
+    num2 //= 10  
+    num_of_digits += 1
+
+if num == 0:
+    num_of_digits = 1
+
+print("The number of digits in the number is:", num_of_digits)
