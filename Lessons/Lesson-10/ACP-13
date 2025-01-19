@@ -1,0 +1,3 @@
+num=int(input("Enter the number to convert to binary:"))
+for i in range(0,num%2):
+    print(num)
