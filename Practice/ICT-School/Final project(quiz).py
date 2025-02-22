@@ -92,7 +92,7 @@ def anagram():
         print("Sorry! Incorrect answer! The correct answer was option d.")
     final_score=score*2
     print("You have totaly scored:",final_score,"/10")
-    print (retry())
+    retry()
 #mental maths
 def Mental_maths():
         score=0
@@ -131,7 +131,7 @@ def Mental_maths():
 
         final_score=score*2
         print("You have totaly scored:",final_score,"/10")
-        print(retry())
+        retry()
 #puzzle
 def Puzzle():
         score=0
@@ -174,7 +174,7 @@ if age < 11 and age>0 or age > 15:
         print("Sorry", name, "you can't take the quiz!")
 elif age<=0:
         print("That is not a real age!")
-        print (age())
+        age()
 else:
         print("You can take the quiz!")
         q_choice=choice()
