@@ -4,19 +4,19 @@ student_data={'id1'
      'subject_integration':['english,math,science']
      },
     'id2':
-    {'name':['David'],
+    {'name':['Sara'],
      'class':['v'],
      'subject_integration':['english,math,science']
      },
     'id3':
     {'name': ['Sara'],
      'class':['v'],
-     'subject_integration[english,math,scince]'
+     'subject_integration[english,math,science]'
      },
      'id4':
     {'name': ['Surya'],
      'class':['v'],
-     'subject_integration[english,math,scince]'
+     'subject_integration[english,math,science]'
      },
 }
 
