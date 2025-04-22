@@ -20,4 +20,4 @@ if choice == 'yes':
     reshuffled = reshuffle_password(password)
     print("Reshuffled password:", reshuffled)
 else:
-    print("Okay! Your password remains:", password)
+    print("Okay! Your password is:", password)

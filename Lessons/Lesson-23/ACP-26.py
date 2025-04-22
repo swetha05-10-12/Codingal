@@ -5,11 +5,13 @@ for i in range (num+1):
         num_list.append(i)
 print(num_list)
 
-fruits=["apple","banana","tomato","strawberry","cherry"]
-print(fruits)
+fruits = ["apple", "banana", "tomato", "strawberry", "cherry"]
+print("Original List:", fruits)
 
-for i in range (6):
-    fruits.append(fruits.capitalize())
+for i in range(len(fruits)):
+    fruits[i] = fruits[i].capitalize()
+
+print("Capitalized List:", fruits)
 
 
 print(fruits)

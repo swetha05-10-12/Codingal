@@ -4,7 +4,7 @@ import time
 def getRandomDate(startDate,endDate):
     print("Printing a random date in between",startDate,"and",endDate)
     randomGenerator=random.random()
-    dateformat= '%M/%D/%Y'
+    dateformat= '%m/%d/%y'
     startTime= time.mktime(time.strptime(startDate,dateformat))
     endTime=time.mktime(time.strptime(endDate,dateformat))
 

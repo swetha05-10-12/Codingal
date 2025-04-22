@@ -23,7 +23,7 @@ def retry():
         else:
             print("Please enter a valid option!")
             retry()  
-    elif ans.lower() == "no":
+    elif ans=="no" or ans =="No":
         print("Thanks for playing!")
     else:
         print("Enter a valid option please")
@@ -169,7 +169,7 @@ def Puzzle():
             print("Sorry!Wrong!")
         final_score=score*2
         print("You have totaly scored:",final_score,"/10")
-        print(retry())
+        retry()
 if age < 11 and age>0 or age > 15:
         print("Sorry", name, "you can't take the quiz!")
 elif age<=0:

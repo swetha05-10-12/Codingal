@@ -27,5 +27,5 @@ def trip_cost(city, days , spending_money, night):
     print(trip_cost("Tampa",6500))
     return car_rental(days)+ hotel_cost(night)
 
-trip_cost()
+
 

@@ -11,3 +11,5 @@ foo=My_class()
 foo.hello()
 foo.privMeth()
 
+
+

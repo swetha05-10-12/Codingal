@@ -2,6 +2,6 @@ def circum():
     print(((2*r)*3.141))
 
 print("The circumference of a circle:")
-r=float(input("Enter the radius of circle to find it's circumference:"))
+r=float(input("Enter the radius of circle to find it's circumference :"))
 
 circum()
